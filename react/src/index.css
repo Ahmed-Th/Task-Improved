@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 7rem  5rem;
+  font-family: sans-serif;
+  background-image:linear-gradient(to left bottom, #7686FF  ,  #FA5FA1);
+  box-sizing: border-box;
+
+}
+@media only screen and (max-width: 56.25em){ 
+  body{
+    padding: 0;
+  }
+ 
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+@media only screen and (max-width: 75em){
+  html {
+    font-size: 56.25%;;
+  }
+ 
+}
+
+@media only screen and (max-width: 56.25em){
+  html {
+    font-size: 50%; 
+  }
+ 
+}
